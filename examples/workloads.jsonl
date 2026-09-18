@@ -1,0 +1,1 @@
+{"service": "catalog-api", "environment": "production", "image": "registry.example/catalog@sha256:abc123", "replicas": 1, "public_ingress": false, "database_access": true}

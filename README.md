@@ -40,7 +40,11 @@ The last step is intentionally out of scope. It varies by organization; keeping 
 
 ```bash
 python3 -m unittest discover -s tests -v
+python3 -m src.app < examples/workloads.jsonl
 ```
+
+The JSONL input represents a developer self-service request; the output is the
+auditable platform plan an environment adapter would render into GitOps.
 
 No external packages or credentials are required.
 
